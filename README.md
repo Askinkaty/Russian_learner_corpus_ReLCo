@@ -29,8 +29,7 @@ Labels:
 Category includes more detailed information about the given asnwer -- how is it different from the expected answer. 
 For example, tag 'Tense: fut/past, Number: s/p' means that an answer is in the future tense and singular number, but the expected answer is plural past tense verb. 
 
-For details and questions, contact: anisia.katinskaia@helsinki.fi
-
 IN PROGRESS: 
 All sentences are morphologically annotated, this addidional data will be added to all files.
 
+For details and questions, contact: anisia.katinskaia@helsinki.fi
