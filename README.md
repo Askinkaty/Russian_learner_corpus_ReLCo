@@ -1,5 +1,5 @@
 # Russian_learner_corpora
-Corpus of errors collected automatically by Revita language learning system
+Corpus of errors collected automatically by [Revita language learning system](http://revita.cs.helsinki.fi/)
 
 The directory `sentences_with_errors` contains several files with annotated errors from Revita Learner Corpus (ReLC)
 
@@ -28,6 +28,7 @@ Labels:
 
 Category includes more detailed information about the given asnwer -- how is it different from the expected answer. 
 For example, tag 'Tense: fut/past, Number: s/p' means that an answer is in the future tense and singular number, but the expected answer is plural past tense verb. 
+
 For details and questions, contact: anisia.katinskaia@helsinki.fi
 
 IN PROGRESS: 
