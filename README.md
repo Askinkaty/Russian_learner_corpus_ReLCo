@@ -1,4 +1,4 @@
-# Russian_learner_corpora
+# Russian learner corpora
 Corpus of errors collected automatically by [Revita language learning system](http://revita.cs.helsinki.fi/)
 
 The directory `sentences_with_errors` contains several files with annotated errors from Revita Learner Corpus (ReLC)
