@@ -47,6 +47,14 @@ Labels:
 Category includes more detailed information about the given asnwer -- how is it different from the expected answer. 
 For example, tag 'Tense: fut/past, Number: s/p' means that an answer is in the future tense and singular number, but the expected answer is plural past tense verb. 
 
+____ 
+
+File `manually_annotated_sent.csv` has a fragment of data where all words
+marked with ++ are annotated by error type, e.g. *'Case: gen/nom'*, which means
+that genitive case was  used insted of nominative.
+
+______
+
 IN PROGRESS: 
 All sentences are morphologically annotated, this addidional data will be added to all files.
 
