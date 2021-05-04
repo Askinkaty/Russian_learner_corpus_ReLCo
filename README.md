@@ -17,7 +17,8 @@ Format of the data:
   
   
 The file includes 3004 paragraphs with on average 2 sentences per paragraph.
-________
+
+___
 
 
 The directory `automatically_extracted_errors` contains several files with annotated errors from Revita Learner Corpus (ReLC)
