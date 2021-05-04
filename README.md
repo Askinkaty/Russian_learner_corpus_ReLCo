@@ -12,8 +12,8 @@ Format of the data:
 * 1st column: the learners' answers
 * 2nd colung: if an answer is different from the original word in the sentence, 
  the column has a replaced word, otherwise -- None.
-* 3rd column: **Err** mark errors, **MA** -- grammatically acceptable alternative answers.
-* 4th column: **0** -- labels errors, **1** -- grammatically correct words.
+* 3rd column: **Err** -- an error tag, **MA** -- grammatically acceptable alternative answers.
+* 4th column: **0** -- an error label, **1** -- grammatically correct words.
   
   
 The file includes 3004 paragraphs with on average 2 sentences per paragraph.
