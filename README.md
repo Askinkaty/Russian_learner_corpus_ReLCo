@@ -84,4 +84,4 @@ If you want to use our data, please, cite the paper [Toward a Paradigm Shift in 
 ```
 
 ______
-For details and questions, contact: anisia.katinskaia@helsinki.fi
+For details and questions, contact: **anisia.katinskaia@helsinki.fi**
