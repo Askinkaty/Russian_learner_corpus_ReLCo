@@ -2,17 +2,18 @@
 Corpus of errors collected automatically by [Revita language learning system](http://revita.cs.helsinki.fi/)
 
 
-*NEW DATA ADDED:*
+### NEW DATA ADDED:
 
 File `phrases_with_annotation.txt` includes short paragraphs in Conll format 
 with manually annotated answers from language learners of Revita.
+
 Format of the data: 
 
-* The learner answers in the first column.
-* If an answer is different from the original word in the sentence, 
- second column has a replaced word, otherwise -- None.
-* Third column: Err mark errors, MA -- grammatically acceptable answers.
-* The last column: 0 label for errors, 1 -- for grammatically correct words.
+* 1st column: the learners' answers
+* 2nd colung: if an answer is different from the original word in the sentence, 
+ the column has a replaced word, otherwise -- None.
+* 3rd column: **Err** mark errors, **MA** -- grammatically acceptable alternative answers.
+* 4th column: **0** -- labels errors, **1** -- grammatically correct words.
   
   
 The file includes 3004 paragraphs with on average 2 sentences per paragraph.
