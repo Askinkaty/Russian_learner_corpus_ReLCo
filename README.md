@@ -58,4 +58,28 @@ ______
 IN PROGRESS: 
 All sentences are morphologically annotated, this addidional data will be added to all files.
 
+______
+If you want to use our data, please, cite the paper [Toward a Paradigm Shift in Collection of Learner Corpora](https://www.aclweb.org/anthology/2020.lrec-1.48/)
+
+
+```
+@inproceedings{katinskaia-etal-2020-toward,
+    title = "Toward a Paradigm Shift in Collection of Learner Corpora",
+    author = "Katinskaia, Anisia  and
+      Ivanova, Sardana  and
+      Yangarber, Roman",
+    booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://www.aclweb.org/anthology/2020.lrec-1.48",
+    pages = "386--391",
+    abstract = "We present the first version of the longitudinal Revita Learner Corpus (ReLCo), for Russian. In contrast to traditional learner corpora, ReLCo is collected and annotated fully automatically, while students perform exercises using the Revita language-learning platform. The corpus currently contains 8 422 sentences exhibiting several types of errors{---}grammatical, lexical, orthographic, etc.{---}which were committed by learners during practice and were automatically annotated by Revita. The corpus provides valuable information about patterns of learner errors and can be used as a language resource for a number of research tasks, while its creation is much cheaper and faster than for traditional learner corpora. A crucial advantage of ReLCo that it grows continually while learners practice with Revita, which opens the possibility of creating an unlimited learner resource with longitudinal data collected over time. We make the pilot version of the Russian ReLCo publicly available.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+```
+
+______
 For details and questions, contact: anisia.katinskaia@helsinki.fi
