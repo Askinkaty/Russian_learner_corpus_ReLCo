@@ -9,8 +9,8 @@ with manually annotated answers from language learners of Revita.
 
 Format of the data: 
 
-* 1st column: the learners' answers
-* 2nd colung: if an answer is different from the original word in the sentence, 
+* 1st column: learners' answers
+* 2nd column: if an answer is different from the original word in the sentence, 
  the column has a replaced word, otherwise -- None.
 * 3rd column: **Err** -- an error tag, **MA** -- grammatically acceptable alternative answers.
 * 4th column: **0** -- an error label, **1** -- grammatically correct words.
@@ -25,16 +25,16 @@ The directory `automatically_extracted_errors` contains several files with annot
 
 * `gram_err.csv` - file with grammatical errors (an answer given by the learner has the same lemma as the expected answer, so they are forms from the same paradigm);
 * `nonword_err.csv` - file with errors which do not exist in the dictionary (spelling errors);
-* `wronglemma_err.csv` - file with error which lemma is different from the lemma of the expected answer.
+* `wronglemma_err.csv` - file with errors which lemmas are different from the lemmas of the expected answers.
 
-Files starting with 'correct' have correct forms in the same sentences (also marker by undescores).
+Files starting with 'correct' have correct forms in the same sentences (also marker by underscores).
 All these files were automatically annotated.
 
 Every file has the following columns: 
 * learner's id; 
-* time when error was made;
-* attempt (the system provides currently 2 attemps to practice the same exercise);
-* sentence with errors marked by undescores ;
+* time when an error was made;
+* attempt (the system provides currently 2 attempts to practice the same exercise);
+* sentence with errors marked by underscores ;
 
 File `annotated_sent.csv` is a file with manual annotation. New columns here are 'label' and 'category'.
 
@@ -46,19 +46,19 @@ Labels:
 - 4: non-word error;
 - 7: other.
 
-Category includes more detailed information about the given asnwer -- how is it different from the expected answer. 
+The category includes more detailed information about the given asnwer -- how is it different from the expected answer. 
 For example, tag 'Tense: fut/past, Number: s/p' means that an answer is in the future tense and singular number, but the expected answer is plural past tense verb. 
 
 ____ 
 
 File `manually_annotated_sent.csv` has a fragment of data where all words
 marked with ++ are annotated by error type, e.g. *'Case: gen/nom'*, which means
-that genitive case was  used insted of nominative.
+that genitive case was used instead of the nominative.
 
 ______
 
 IN PROGRESS: 
-All sentences are morphologically annotated, this addidional data will be added to all files.
+All sentences are morphologically annotated, this additional data will be added to all files.
 
 ______
 If you want to use our data, please, cite the paper [Toward a Paradigm Shift in Collection of Learner Corpora](https://www.aclweb.org/anthology/2020.lrec-1.48/)
