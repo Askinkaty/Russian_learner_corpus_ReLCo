@@ -1,4 +1,4 @@
-# Russian learner corpus
+# Russian learner corpus ReLCo
 Corpus of errors collected automatically by [Revita language learning system](http://revita.cs.helsinki.fi/)
 
 
