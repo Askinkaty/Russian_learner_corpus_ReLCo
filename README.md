@@ -2,6 +2,14 @@
 Corpus of errors collected automatically by [Revita language learning system](http://revita.cs.helsinki.fi/)
 
 
+### UPDATED DATASETS:
+
+New file with manually annotated data will be uploaded soon!
+
+* `errors_tagged.m2` contains sentences with learner answers which was tagged using ERRANT updated for Russian.
+
+
+
 ### NEW DATA ADDED:
 
 File `phrases_with_annotation.txt` includes short paragraphs in Conll format 
