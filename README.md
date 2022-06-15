@@ -4,16 +4,7 @@ Corpus of errors collected automatically by [Revita language learning system](ht
 
 ### UPDATED DATASETS:
 
-New file with manually annotated data will be uploaded soon!
-
-* `errors_tagged.m2` contains sentences with learner answers which was tagged using ERRANT updated for Russian.
-
-
-
-### NEW DATA ADDED:
-
-File `phrases_with_annotation.txt` includes short paragraphs in Conll format 
-with manually annotated answers from language learners of Revita.
+* `paragraphs_with_manual_annotation.txt` includes short paragraphs with manually annotated answers from language learners of Revita.
 
 Format of the data: 
 
@@ -21,10 +12,13 @@ Format of the data:
 * 2nd column: if an answer is different from the original word in the sentence, 
  the column has a replaced word, otherwise -- None.
 * 3rd column: **Err** -- an error tag, **MA** -- grammatically acceptable alternative answers.
-* 4th column: **0** -- an error label, **1** -- grammatically correct words.
+* 4th column: manually assigned error/MA tag, e.g. 'Aspect: imp/perf' means that form of perfect aspect was used insted of imperfect.
+* 5th column: **0** -- an error label, **1** -- grammatically correct words.
+* 6th column: **Hard** -- if annotators couldn't agree on annotation of the answer, it has a tag **Hard**. Final decision about correctness was made by an expert.
   
-  
-The file includes 3004 paragraphs with on average 2 sentences per paragraph.
+The file includes 6141 paragraphs with on average 2 sentences per paragraph.
+
+* `errors_tagged.m2` contains sentences with learner answers which was tagged using ERRANT updated for Russian. This data includes spelling errors.
 
 ___
 
@@ -63,10 +57,6 @@ File `manually_annotated_sent.csv` has a fragment of data where all words
 marked with ++ are annotated by error type, e.g. *'Case: gen/nom'*, which means
 that genitive case was used instead of the nominative.
 
-______
-
-IN PROGRESS: 
-All sentences are morphologically annotated, this additional data will be added to all files.
 
 ______
 If you want to use our data, please, cite the paper [Toward a Paradigm Shift in Collection of Learner Corpora](https://www.aclweb.org/anthology/2020.lrec-1.48/)
